@@ -21,7 +21,7 @@ function Products(){
         {title : "Showcase", description : "Our OMR22 Masterclass teaches how to create a showcase website, and we made a showcase website about showcase websites to promote the art of showcasing.", liveWebsite : true, caseStudy : false},
      ]
     return (
-        <div>
+        <div className="py-20">
             {productData.map((eml, index)=> (
                 <Product key={index} val={eml} />
             ) )}

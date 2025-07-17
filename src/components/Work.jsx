@@ -23,7 +23,7 @@ function Work(){
 
     <div className="w-full">
         <div className="max-w-screen-xl relative mx-auto text-center">
-           <h1 className="text-[32vw] font-medium leading-snug tracking-tight select-none">work</h1>
+           <h1 className="text-[35vw] font-medium leading-tight tracking-tight select-none">work</h1>
            <div className="w-full h-full absolute top-0">
             {
               image.map((elm, index) => (elm.isActive && ( <img key={index} className="absolute w-72 rounded-xl  -translate-x-1/2 -translate-y-1/2" style={{top : elm.top, left : elm.left}} src={elm.url} alt="" />)))

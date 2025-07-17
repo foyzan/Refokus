@@ -3,8 +3,9 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Stripes from "./components/Stripes";
-
 import Products from "./components/products";
+import Marquees from "./components/Marquees";
+
 
 function App(){
   return (<div className="w-full min-h-screen bg-zinc-900 text-white font-[Satoshi Variable] ">
@@ -12,6 +13,7 @@ function App(){
     <Work/>
     <Stripes/>
     <Products/>
+    <Marquees/>
   </div>)
 }
 
