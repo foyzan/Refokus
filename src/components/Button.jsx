@@ -1,11 +1,12 @@
 import React from "react";
-import { BsArrowReturnRight } from "react-icons/bs";
+import { RiCornerDownRightLine } from "react-icons/ri";
 
+import { BiSubdirectoryRight } from "react-icons/bi";
 
-function Button(){
+function Button({title = "Start a Project"}){
   return (
-    <div className="w-39 text-sm font-normal px-5 py-2 bg-[#F1ECFF] text-black rounded-full flex items-center justify-between">Start a Project
-        <BsArrowReturnRight/>
+    <div className=" text-base text-zinc-800 px-4.5 py-1.5 bg-[#F1ECFF] rounded-full flex items-center justify-between gap-3">{title}
+        <RiCornerDownRightLine className="w-4 h-4 pt-1"/>
     </div>
   )
 }

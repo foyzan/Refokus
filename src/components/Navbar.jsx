@@ -3,7 +3,7 @@ import logo from '../assets/logo.svg'
 import Button from "./Button";
 
 function Navbar() {
-  return (<div className=" max-w-screen-xl flex border-b-1 border-b-zinc-700 py-5 mx-auto justify-between items-center">
+  return (<div className=" max-w-9/10 flex border-b-1 border-b-zinc-700 py-5 mx-auto justify-between items-center">
     <div className="navLeft flex items-center justify-center">
       <img src={logo} alt="" />
       <div className="link flex gap-16 ml-20">
