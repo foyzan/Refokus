@@ -15,7 +15,7 @@ function Marquees(){
        [image1, image2, image3, image4, image5, image6, image7]
     ]
     return (
-        <div className=" py-40">
+        <div className="py-50">
             {data.map((item, index) => <Marquee key={index} imageUrls={item}/>)}
         </div>
     )
