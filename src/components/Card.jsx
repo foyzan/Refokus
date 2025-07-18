@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 function Card({props}) {
   return (
-    <div className={`${props.width} bg-zinc-800 p-5 rounded-2xl`}>
+    <div className={`${props.width} bg-zinc-800 p-5 rounded-2xl ${props.downRight && 'hover:bg-[#7443FF]'} `}>
       <div className="w-full flex justify-between items-center">
         <h3 className="text-sm ">{props.text1}</h3>
         <BsArrowRight className="w-7" />
