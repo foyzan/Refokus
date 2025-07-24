@@ -6,7 +6,7 @@ function Footer(){
     return (
         <div className="w-full">
             <div className="max-w-9/10 mx-auto flex py-10 gap-40 items-center">
-                <div className=" basis-1/2 text-right">
+                <div className=" basis-1/2 text-right select-none">
                     <h1 className="text-[12rem] font-medium leading-none tracking-tight -ml-3">refokus.</h1>
                     <div className=" pt-2 flex gap-x-20">
                         <span className="text-sm text-zinc-600">Hamburg, Germany</span> 
