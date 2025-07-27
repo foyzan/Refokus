@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Stripes from "./components/Stripes";
@@ -14,7 +14,13 @@ import LocomotiveScroll from "locomotive-scroll";
 
 
 function App(){
-  const locomotiveScroll = new LocomotiveScroll();
+  useEffect(() => {
+    const locomotiveScroll = new LocomotiveScroll();
+
+    return () => {
+      locomotiveScroll.destroy();
+    }
+  }, [])
   return (<div className="w-full min-h-screen bg-zinc-900 text-white font-[Satoshi Variable] ">
     <Navbar/>
     <Work/>

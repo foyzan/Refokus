@@ -55,7 +55,7 @@ function Work(){
      showImage([0, 1, 2, 3, 4, 5])
     }
 
-    console.log(Math.floor(latest * 1000));
+    
     
     
   })
