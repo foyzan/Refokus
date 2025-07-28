@@ -16,7 +16,7 @@ function Marquees(){
     ]
     return (
         <div className="py-50">
-            {data.map((item, index) => <Marquee key={index} imageUrls={item}/>)}
+            {data.map((item, index) => <Marquee key={index} imageUrls={item} direction = { index === 0 ? "left" : "right"} />)}
         </div>
     )
 }
